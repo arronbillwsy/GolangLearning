@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main()  {
 	//buf:= [5]byte{'a','b','c','e','f'}
 	//for i:=0;i<5;i++{
@@ -484,7 +486,7 @@ func main()  {
 	//http.HandleFunc("/hello", hello)
 	//http.HandleFunc("/headers", headers)
 	//http.ListenAndServe(":8090", nil)
-
+	fmt.Println("ok")
 }
 //
 //
